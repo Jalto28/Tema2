@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ConversorMoneda {
+public class Ej16 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
