@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ConsumoAutomovil {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
 
         // Primer repostaje
         System.out.println("Primer repostaje:");
@@ -37,6 +37,6 @@ public class ConsumoAutomovil {
         System.out.println("Coste por kilómetro: " +costePorKilometro+" euros");
 
         // Cerrar el scanner
-        scanner.close();
+        teclado.close();
     }
 }
